@@ -1,0 +1,19 @@
+.Navigation {
+  display: flex;
+  align-items: center;
+  color: rgb(165, 165, 165);
+}
+
+.Item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.NavLink {
+  margin-right: 20px;
+  font-weight: 700;
+  color: var(--second-color);
+}
+
+.NavLink-active {
+  color: var(--main-color);
+}
