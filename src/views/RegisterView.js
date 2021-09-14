@@ -51,6 +51,7 @@ function RegisterView() {
             name="name"
             value={name}
             onChange={handleChange}
+            placeholder="Anna Kuhar"
           />
         </AuthLabel>
 
@@ -61,6 +62,7 @@ function RegisterView() {
             name="email"
             value={email}
             onChange={handleChange}
+            placeholder="an@gmail.com"
           />
         </AuthLabel>
 
